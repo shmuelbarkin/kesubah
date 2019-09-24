@@ -151,7 +151,7 @@ body{
 
 [data-tooltip]{
   position: relative;
-  cursor: help;
+  cursor: auto;
   z-index: 2;
   font-weight: $weight-regular;
   @include respond-to(sm){
@@ -170,17 +170,17 @@ body{
     bottom: 12px;
     visibility: hidden;
     transition: 200ms;
-    line-height: 1.2;
-    @include fsz(12px);
+    line-height: 1.4;
+    @include fsz(14px);
     width: 120px;
     text-align: center;
     white-space: pre-line;
     @include respond-to(sm){
       position: fixed;
-      top: 0;
+      top: auto;
       left: 0;
       right: 0;
-      bottom: auto;
+      bottom: 0;
       transform: none;
       width: auto !important;
       z-index: 3;
