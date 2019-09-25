@@ -165,7 +165,7 @@ body{
     box-shadow: 0 5px 10px 0 rgba(65, 66, 79, 0.1);
     color: var(--color-white);
     opacity: 0;
-    padding: 5px 8px 8px;
+    padding: 7px 10px 10px;
     @include center(horizontal);
     bottom: 12px;
     visibility: hidden;
@@ -263,6 +263,13 @@ body{
 .mb-24{
   margin-bottom: 24px !important;
 }
+
+// Right to left paragraph direction for Hebrew text
+.rl{
+  direction: rtl !important;
+  text-align: left;
+}
+
 .site-footer{
   @include fsz(14px);
   padding: 49px 20px;
