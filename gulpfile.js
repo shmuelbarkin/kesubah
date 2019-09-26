@@ -20,13 +20,13 @@ var task = {};
 
 var path = {
   build: {
-    html: 'html/',
-    stylesheets: 'html/assets/stylesheets/',
-    img: 'html/assets/images/',
-    javascript: 'html/assets/javascript/',
-    fonts: 'html/assets/fonts/',
-    favicon: 'html/assets/favicon',
-    pdf: 'html/assets/pdf/'
+    html: 'dist/',
+    stylesheets: 'dist/assets/stylesheets/',
+    img: 'dist/assets/images/',
+    javascript: 'dist/assets/javascript/',
+    fonts: 'dist/assets/fonts/',
+    favicon: 'dist/assets/favicon',
+    pdf: 'dist/assets/pdf/'
   },
   src: {
     html: 'src/*.html',
@@ -137,7 +137,7 @@ gulp.task('server:build', function() {
   browserSync.init({
     port : 3200,
     server: {
-      baseDir: "html"
+      baseDir: "dist"
     },
     notify: {
       styles: {

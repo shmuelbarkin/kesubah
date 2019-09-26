@@ -18,15 +18,19 @@ h1{
   color: var(--color-white);
   font-weight: $weight-extrabold;
   line-height: 1.33;
+  white-space: nowrap;
   @include respond-to(md){
-    @include fsz(36px);
+    @include fsz(40px);
   }
   @include respond-to(sm){
-    @include fsz(24px);
+    @include fsz(32px);
   }
   span{
     + span{
       margin-left: 32px;
+      @include respond-to(lg){
+        display: none;
+      }
       @include respond-to(sm){
         margin-left: 24px;
       }
@@ -69,6 +73,7 @@ p{
   }
 }
 a{
+  text-decoration: underline;
   &:hover{
     text-decoration: underline;
   }
