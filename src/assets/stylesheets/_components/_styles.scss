@@ -206,7 +206,8 @@ body{
     white-space: pre-line;
     @include respond-to(sm){
       position: fixed;
-      bottom: 0;
+      top: 0;
+      bottom: auto;
       left: 0;
       right: 0;
       transform: none;
