@@ -216,6 +216,7 @@ body{
       border-radius: 0;
       @include fsz(16px);
       padding: 12px;
+      pointer-events: none;
     }
   }
   &:after{
@@ -248,8 +249,6 @@ body{
   &.active{
     &:before{
       @include respond-to(sm){
-        user-select: none;
-        pointer-events: none;
         opacity: 1;
         visibility: visible;
       }
