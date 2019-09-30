@@ -34,6 +34,13 @@
   --color-text: var(--color-text-black);
   --color-tooltip: var(--color-text-black);
   --color-footer: var(--color-text-black);
+  @media (prefers-color-scheme: dark) {
+    --color-bg: var(--color-white);
+    --color-heading: var(--color-blue);
+    --color-text: var(--color-text-black);
+    --color-tooltip: var(--color-text-black);
+    --color-footer: var(--color-text-black);
+  }
 }
 
 [data-theme="dark"] {
