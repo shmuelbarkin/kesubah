@@ -23,7 +23,7 @@
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^6.0.0",
+    "gulp-imagemin": "^9.2.0",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^4.0.2",
     "gulp-uglify-es": "^1.0.4",
@@ -31,7 +31,7 @@
     "imagemin-jpeg-recompress": "^6.0.0",
     "imagemin-pngquant": "^8.0.0",
     "npm": "^6.13.4",
-    "npm-check-updates": "^3.1.10",
+    "npm-check-updates": "^19.1.2",
     "pump": "^3.0.0"
   },
   "dependencies": {
